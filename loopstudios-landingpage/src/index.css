@@ -30,3 +30,11 @@ p {
   font-size: 15px;
   font-family: 'Alata', sans-serif;
 }
+
+.case {
+  background: url('./images/image-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
