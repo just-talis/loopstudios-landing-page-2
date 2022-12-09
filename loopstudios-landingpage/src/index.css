@@ -14,9 +14,13 @@
   box-sizing: border-box;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .header {
@@ -24,11 +28,36 @@ h1,h2,h3,h4,h5,h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.header nav{
+  display: none;
+}
+
+.header .menu-btn {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.header .menu-btn .bar {
+  width: 35px;
+  height: 3px;
+  background-color: #fff;
+  margin: 0 0 5px;
 }
 
 p { 
   font-size: 15px;
   font-family: 'Alata', sans-serif;
+}
+
+button {
+  background-color: transparent;
+  font-family: 'Alata', sans-serif;
+  border: 0;
+  color: #fff;
 }
 
 .case {
@@ -37,4 +66,19 @@ p {
   background-size: cover;
   background-position: center;
   height: 700px;
+}
+
+.case .overlay {
+  display: flex;
+  align-items: center;
+  height: 700px;
+  padding: 0 20px;
+}
+
+.case .overlay h1 {
+  color: #fff;
+  font-size: 46px;
+  line-height: 1.1;
+  border: 2px solid white;
+  padding: 20px;
 }
