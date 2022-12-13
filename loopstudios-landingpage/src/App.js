@@ -1,4 +1,5 @@
 import Case from "./Components/Case";
+import Creations from "./Components/Creations";
 import Header from "./Components/Header";
 import Interactive from "./Components/Interactive";
 
@@ -8,6 +9,7 @@ const App = () => {
       <Header />
       <Case />
       <Interactive />
+      <Creations />
     </>
   );
 };
