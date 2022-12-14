@@ -21,6 +21,9 @@ const Creations = () => {
             )
         })}
       </section>
+      <div className="btn-container">
+        <button className="btn">See all</button>
+      </div>
     </section>
   );
 };

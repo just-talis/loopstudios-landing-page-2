@@ -134,3 +134,22 @@ button {
   grid-template-columns: 1fr;
   gap: 20px;
 }
+
+.creations-mobile .btn-container {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.creations-mobile .btn-container .btn {
+  border: 2px solid black;
+  padding: 10px 30px;
+  color: black;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.2s;
+}
+
+.creations-mobile .btn-container .btn:hover {
+  background-color: black;
+  color: #fff;
+}
