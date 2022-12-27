@@ -11,7 +11,7 @@ const Footer = () => {
            <div className='logo'>
             <img src={logo} alt="" />
             </div>
-           <ul>6
+           <ul>
                 <li><button>About</button></li>
                 <li><button>Careers</button></li>
                 <li><button>Events</button></li>
