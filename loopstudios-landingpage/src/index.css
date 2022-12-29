@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Fraunces:opsz,wght@9..144,700&family=Josefin+Sans:wght@300&family=Montserrat:wght@500;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Fraunces:opsz,wght@9..144,700&family=Josefin+Sans:wght@300&family=Montserrat:wght@500;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
 
 :root {
   --white: hsl(0, 0%, 100%);
@@ -14,8 +14,13 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Josefin Sans', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
 }
 
@@ -40,7 +45,7 @@ img {
   padding: 10px 20px;
 }
 
-.header nav{
+.header nav {
   display: none;
 }
 
@@ -56,21 +61,21 @@ img {
   margin: 0 0 5px;
 }
 
-p { 
+p {
   font-size: 15px;
-  font-family: 'Alata', sans-serif;
+  font-family: "Alata", sans-serif;
   color: var(--very-dark-gray);
 }
 
 button {
   background-color: transparent;
-  font-family: 'Alata', sans-serif;
+  font-family: "Alata", sans-serif;
   border: 0;
   color: #fff;
 }
 
 .case {
-  background: url('./images/image-hero.jpg');
+  background: url("./images/mobile/image-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -170,5 +175,39 @@ button {
 }
 
 .footer ul li {
-margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .social li {
+  margin-bottom: 0;
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.footer .copyright {
+  font-family: "Alata", sans-serif;
+  font-size: 15px;
+  color: var(--dark-gray);
+}
+
+@media (min-width: 1024px) {
+  .case {
+    background: url("./images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+  }
+
+  .case .overlay h1 {
+    width: 700px;
+    font-size: 65px;
+    margin-top: 100px;
+  }
 }

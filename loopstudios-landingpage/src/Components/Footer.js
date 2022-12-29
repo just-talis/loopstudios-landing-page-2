@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
     <footer className='footer'>
-        <div className='logo'>
+        <div>
            <div className='logo'>
             <img src={logo} alt="" />
             </div>
@@ -28,7 +28,7 @@ const Footer = () => {
                 <li><FaInstagram /></li>
             </ul>
 
-            <div> &copy; 2021 loopstudios. All right reserved.
+            <div className='copyright'> &copy; 2021 loopstudios. All right reserved.
             </div>
         </div>
     </footer>
