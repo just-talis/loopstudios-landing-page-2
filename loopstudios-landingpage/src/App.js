@@ -3,6 +3,7 @@ import Creations from "./Components/Creations";
 import Header from "./Components/Header";
 import Interactive from "./Components/Interactive";
 import Footer from "./Components/Footer";
+import CreationsDesktop from "./Components/CreationsDesktop";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Case />
       <Interactive />
       <Creations />
+      <CreationsDesktop/>
       <Footer />
     </>
   );

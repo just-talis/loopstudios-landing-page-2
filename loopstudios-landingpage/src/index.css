@@ -159,6 +159,10 @@ button {
   color: #fff;
 }
 
+.creations-desktop {
+  display: none;
+}
+
 .footer {
   background-color: black;
   color: #fff;
@@ -194,6 +198,16 @@ button {
   font-family: "Alata", sans-serif;
   font-size: 15px;
   color: var(--dark-gray);
+}
+
+@media (min-width: 992px) {
+  .creations-mobile {
+    display: none;
+  }
+
+  .creations-desktop {
+    display: block;
+  }
 }
 
 @media (min-width: 1024px) {
