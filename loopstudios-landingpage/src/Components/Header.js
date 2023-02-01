@@ -9,7 +9,7 @@ const Header = () => {
             <img src={logo} alt='Loopstudios' />
         </div>
 
-         <nav>
+         <nav className='open'>
             <ul>
                 <li><button>About</button></li>
                 <li><button>Careers</button></li>
@@ -19,7 +19,7 @@ const Header = () => {
             </ul>
          </nav>
 
-        <div className='menu-btn'>
+        <div className='menu-btn rotate'>
             <div className='bar bar-1'></div>
             <div className='bar bar-2'></div>
             <div className='bar bar-3'></div>

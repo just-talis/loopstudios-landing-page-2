@@ -1,5 +1,5 @@
 import React from "react";
-import interactiveimg from "../images/mobile/image-interactive.jpg";
+import interactiveimg from "../images/desktop/image-interactive.jpg";
 
 const Interactive = () => {
   return (
